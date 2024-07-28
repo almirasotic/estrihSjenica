@@ -50,7 +50,7 @@ function Contact() {
         <a href="/">
           <img
             style={{ width: "100px" }}
-            title="FR-Trockenbau logo"
+            title="Estrih Sjenica logo"
             src={logo}
             alt="Logo"
           />
