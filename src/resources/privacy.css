@@ -1,0 +1,21 @@
+.privacy {
+    max-width: 80%;
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 1%;
+    text-align: start;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .privacy {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+

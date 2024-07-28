@@ -1,0 +1,17 @@
+.global-contact {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
+
+.galery-div {
+    margin: auto !important;
+    width: 60%;
+}
+
+@media (max-width: 1023px) {
+	.galery-div {
+        margin: auto !important;
+        width: 90%;
+    }
+  }
