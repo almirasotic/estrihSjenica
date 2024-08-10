@@ -21,11 +21,11 @@ function Impresum() {
         {/* Contact bar */}
         <div className='contact-bar w-100 gap-3 d-flex flex-row'>
           <i className="ri-phone-fill"></i>
-          <p className='p-1 m-0'> +381 62 8934 765</p>
+          <p className='p-1 m-0'> +381 62 8934 765 +381 63 8 343512</p>
           <i className="ri-map-pin-line"></i>
           <p className='p-1 m-0'>Kej Mira 36310 Sjenica</p>
           <i className="ri-mail-line"></i>
-          <p className='p-1 m-0'>dzemo@gmail.com</p>
+          <p className='p-1 m-0'>sjenicaestrih@gmail.com</p>
         </div>
 
         {/* Navigation bar */}
@@ -33,9 +33,9 @@ function Impresum() {
           <a href="/"><img style={{ width: "100px" }} title="FR-Trockenbau logo" src={logo} alt="Logo" /></a>
           <nav ref={navRef}>
             <Link to="/" >Home</Link>
-            <Link to="/galery">Galerie</Link>
-            <Link to="/contact"  >Kontakt</Link>
-            <Link to="/impresum"  >Impressum</Link>
+            <Link to="/galery">Galerija</Link>
+            {/* <Link to="/contact"  >Kontakt</Link> */}
+            {/* <Link to="/impresum"  >Impressum</Link> */}
             <button
               className="nav-btn nav-close-btn"
               onClick={showNavbar}>
@@ -56,17 +56,17 @@ function Impresum() {
 
           {/* Title impressum */}
           <div className='d-flex w-100 justify-content-center m-0 p-5'>
-            <h1 style={{ color: "#645124", fontWeight: "bold" }} >Impressum</h1>
+            {/* <h1 style={{ color: "#645124", fontWeight: "bold" }} >Impressum</h1> */}
           </div>
           {/* Impressum  */}
 
-          <div className='impressum-div d-flex flex-column p-4'>
+          {/* <div className='impressum-div d-flex flex-column p-4'>
             <h2>Angaben gemäß § 5 TMG:</h2>
             <p>FR Trockenbau<br />Faruk Rizovic</p>
             <h3>Postanschrift:</h3>
             <p>Fromund-str.35<br />81547 München<br /></p>
             <h3>Kontakt:</h3>
-            <p>Telefon: +381 62 8934 765<br />E-Mail: dzemo@gmail.com</p>
+            <p>Telefon: +381 62 8934 765 +381 63 8 343512<br />E-Mail: sjenicaestrih@gmail.com</p>
             <p></p><h3>Vertreten durch:</h3>
             <p>Faruk Rizovic<br /></p>
             <p></p><h3>Umsatzsteuer-Identifikationsnummer</h3>
@@ -85,7 +85,7 @@ function Impresum() {
             <p>Gemäß § 36 VSBG (Verbraucherstreitbeilegungsgesetz – Gesetz über die alternative Streitbeilegung in Verbrauchersachen) erklärt der Betreiber dieser Website:</p>
             <p>Wir sind weder bereit noch verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
             <p></p><p><em>Das Impressum wurde mit dem <a href="https://www.activemind.de/datenschutz/impressums-generator/">Impressums-Generator der activeMind AG</a> erstellt.</em></p>
-          </div>
+          </div> */}
 
 
         </div>
@@ -98,24 +98,24 @@ function Impresum() {
 
             <img style={{ width: "100px", margin: "0", padding: "0" }} title="FR-Trockenbau logo" src={logo} alt="Logo" />
 
-            <p className="footer-company-name">FR Trockenbau © 2017. All rights Reserved  <a style={{ color: "black" }} href="/privacy">Datenschutz</a> <a style={{ color: "black" }} href="/impresum">Impressum</a></p>
+            {/* <p className="footer-company-name"> <a style={{ color: "black" }} href="/privacy">Datenschutz</a> <a style={{ color: "black" }} href="/impresum">Impressum</a></p> */}
           </div>
 
           <div className="footer-center">
 
             <div>
               <i className="ri-map-pin-line"></i>
-              <p><span>Fromund-str.35</span> 81547 München, Germany</p>
+              <p><span></span>36310 Sjenica, Srbija</p>
             </div>
 
             <div>
               <i className="ri-phone-line"></i>
-              <a style={{ color: "black", textDecoration: "underline" }} href="tel:+49 017664415110">+381 62 8934 765</a>
+              <a style={{ color: "black", textDecoration: "underline" }} href="tel:+49 017664415110">+381 62 8934 765 +381 63 8 343512</a>
             </div>
 
             <div>
               <i className="ri-mail-line"></i>
-              <p><a style={{ color: "black", textDecoration: "underline" }} href="mailto:info@fr-trockenbau.de">dzemo@gmail.com</a></p>
+              <p><a style={{ color: "black", textDecoration: "underline" }} href="mailto:info@fr-trockenbau.de">sjenicaestrih@gmail.com</a></p>
             </div>
 
           </div>

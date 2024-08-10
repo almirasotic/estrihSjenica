@@ -20,11 +20,11 @@ function Privacy() {
                 {/* Contact bar */}
                 <div className='contact-bar w-100 gap-3 d-flex flex-row'>
                     <i className="ri-phone-fill"></i>
-                    <p className='p-1 m-0'> +381 62 8934 765</p>
+                    <p className='p-1 m-0'> +381 62 8934 765 +381 63 8 343512</p>
                     <i className="ri-map-pin-line"></i>
                     <p className='p-1 m-0'>Kej Mira 36310 Sjenica</p>
                     <i className="ri-mail-line"></i>
-                    <p className='p-1 m-0'>dzemo@gmail.com</p>
+                    <p className='p-1 m-0'>sjenicaestrih@gmail.com</p>
                 </div>
 
                 {/* Navigation bar */}
@@ -32,8 +32,8 @@ function Privacy() {
                     <a href="/"><img style={{ width: "100px" }} title="FR-Trockenbau logo" src={logo} alt="Logo" /></a>
                     <nav ref={navRef}>
                         <Link to="/" >Home</Link>
-                        <Link to="/galery">Galerie</Link>
-                        <Link to="/contact"  >Kontakt</Link>
+                        <Link to="/galery">Galerija</Link>
+                        {/* <Link to="/contact"  >Kontakt</Link> */}
                         {/* <Link to="/impresum"  >Impressum</Link> */}
                         <button
                             className="nav-btn nav-close-btn"
@@ -60,14 +60,14 @@ function Privacy() {
                     {/* Privacy  */}
 
                     <div className='privacy d-flex flex-column'>
-                        <h1>Datenschutzerklärung</h1>
+                        {/* <h1>Datenschutzerklärung</h1>
                         <p>Verantwortlicher im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:</p>
                         <p>FR Trockenbau</p>
                         <p>Faruk Rizovic</p>
                         <p>Fromund-str.35</p>
                         <p>81547 München</p>
-                        <p>Telefon: +381 62 8934 765</p>
-                        <a href="mailto:info@fr-trockenbau.de">dzemo@gmail.com</a>
+                        <p>Telefon: +381 62 8934 765 +381 63 8 343512</p>
+                        <a href="mailto:info@fr-trockenbau.de">sjenicaestrih@gmail.com</a>
                         <h2>Ihre Betroffenenrechte</h2>
                         <p>Unter den angegebenen Kontaktdaten unseres Datenschutzbeauftragten können Sie jederzeit folgende Rechte ausüben:</p>
                         <ul>
@@ -110,16 +110,16 @@ function Privacy() {
                         <p>Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, jederzeit gegen die Verarbeitung Sie betreffender personenbezogener Daten, die aufgrund Art. 6 Abs. 1 lit. f DSGVO (Datenverarbeitung auf der Grundlage einer Interessenabwägung) erfolgt, Widerspruch einzulegen; dies gilt auch für ein auf diese Bestimmung gestütztes Profiling im Sinne von Art. 4 Nr. 4 DSGVO.</p>
                         <p>Legen Sie Widerspruch ein, werden wir Ihre personenbezogenen Daten nicht mehr verarbeiten, es sei denn, wir können zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die Ihre Interessen, Rechte und Freiheiten überwiegen, oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.</p>
                         <h3>Empfänger eines Widerspruchs</h3>
-                        <p>Faruk Rizovic
-                            <br />E-Mail: info@fr-trockenbau.de
-                            <br />Tel: +49 0 176 644 1511 0</p>
+                        <p>
+                            <br />E-Mail: sjenicaestrih@gmail.com
+                            <br /></p>
                         <hr />
                         <h2>Änderung unserer Datenschutzbestimmungen</h2>
                         <p>Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um Änderungen unserer Leistungen in der Datenschutzerklärung umzusetzen, z.B. bei der Einführung neuer Services. Für Ihren erneuten Besuch gilt dann die neue Datenschutzerklärung.</p>
                         <h2>Fragen an den Datenschutzbeauftragten</h2>
                         <p>Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail oder wenden Sie sich direkt an die für den Datenschutz verantwortliche Person in unserer Organisation:</p>
-                        <p>Phone: Tel +381 62 8934 765 </p>
-                        <p><em>Die Datenschutzerklärung wurde mithilfe der activeMind AG erstellt, den Experten für <a href="https://www.activemind.de/datenschutz/datenschutzbeauftragter/" target="_blank" rel="noopener">externe Datenschutzbeauftragte</a> (Version #2020-09-30).</em></p>
+                        <p>Phone: Tel +381 62 8934 765 +381 63 8 343512 </p>
+                        <p><em>Die Datenschutzerklärung wurde mithilfe der activeMind AG erstellt, den Experten für <a href="https://www.activemind.de/datenschutz/datenschutzbeauftragter/" target="_blank" rel="noopener">externe Datenschutzbeauftragte</a> (Version #2020-09-30).</em></p> */}
 
                     </div>
 
@@ -134,24 +134,24 @@ function Privacy() {
 
                         <img style={{ width: "300px", margin: "0", padding: "0" }} title="FR-Trockenbau logo" src={logo} alt="Logo" />
 
-                        <p className="footer-company-name">FR Trockenbau © 2017. All rights Reserved  <a style={{ color: "black" }} href="/privacy">Datenschutz</a> <a style={{ color: "black" }} href="/impresum">Impressum</a></p>
+                        {/* <p className="footer-company-name"> <a style={{ color: "black" }} href="/privacy">Datenschutz</a> <a style={{ color: "black" }} href="/impresum">Impressum</a></p> */}
                     </div>
 
                     <div className="footer-center">
 
                         <div>
                             <i className="ri-map-pin-line"></i>
-                            <p><span>Fromund-str.35</span> 81547 München, Germany</p>
+                            <p><span></span> 36310 Sjenica, Srbija</p>
                         </div>
 
                         <div>
                             <i className="ri-phone-line"></i>
-                            <a style={{ color: "black", textDecoration: "underline" }} href="tel:+49 017664415110">+381 62 8934 765</a>
+                            <a style={{ color: "black", textDecoration: "underline" }} href="tel:+49 017664415110">+381 62 8934 765 +381 63 8 343512</a>
                         </div>
 
                         <div>
                             <i className="ri-mail-line"></i>
-                            <p><a style={{ color: "black", textDecoration: "underline" }} href="mailto:info@fr-trockenbau.de">dzemo@gmail.com</a></p>
+                            <p><a style={{ color: "black", textDecoration: "underline" }} href="mailto:info@fr-trockenbau.de">sjenicaestrih@gmail.com</a></p>
                         </div>
 
                     </div>
@@ -159,8 +159,6 @@ function Privacy() {
                     <div className="footer-right">
 
                         <p className="footer-company-about">
-                            <span>Über uns</span>
-                            Ihr Experte für Trockenbauarbeiten in München und Umgebung. Profitieren Sie von mehr als 6 Jahren professioneller Erfahrung bei FR Trockenbau in München. Selbstverständlich unterbreiten wir Ihnen gerne ein faires Angebot. Mit einem absoluten Bewusstsein für Qualität und höchster Kompetenz führt unser Team von Faruk Rizovic Trockenbau in München und Umgebung Bestellungen auf eine hochwertige und saubere Weise aus. FR Trockenbau - Ihr zuverlässiger Partner in München.
                         </p>
 
                     </div>

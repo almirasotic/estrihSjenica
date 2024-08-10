@@ -34,11 +34,11 @@ function Galery() {
         {/* Contact bar */}
         <div className='contact-bar w-100 gap-3 d-flex flex-row'>
           <i className="ri-phone-fill"></i>
-          <p className='p-1 m-0'> +381 62 8934 765</p>
+          <p className='p-1 m-0'> +381 62 8934 765 +381 63 8 343512</p>
           <i className="ri-map-pin-line"></i>
           <p className='p-1 m-0'>Kej Mira 36310 Sjenica</p>
           <i className="ri-mail-line"></i>
-          <p className='p-1 m-0'>dzemo@gmail.com</p>
+          <p className='p-1 m-0'>sjenicaestrih@gmail.com</p>
         </div>
 
         {/* Navigation bar */}
@@ -46,8 +46,8 @@ function Galery() {
           <a href="/"><img style={{ width: "100px" }} title="FR-Trockenbau logo" src={logo} alt="Logo" /></a>
           <nav ref={navRef}>
             <Link to="/" >Home</Link>
-            <Link to="/galery">Galery</Link>
-            <Link to="/contact"  >Kontakt</Link>
+            <Link to="/galery">Galerija</Link>
+            {/* <Link to="/contact"  >Kontakt</Link> */}
             {/* <Link to="/impresum"  >Impressum</Link> */}
             <button
               className="nav-btn nav-close-btn"
@@ -69,7 +69,7 @@ function Galery() {
 
           {/* Title Galery */}
           <div className='d-flex justify-content-center m-5'>
-            <h1 style={{ color: "#645124", fontWeight: "bold" }} >Galerie</h1>
+            <h1 style={{ color: "#645124", fontWeight: "bold" }} >Galerija</h1>
           </div>
           {/* Galery images  */}
 
@@ -233,24 +233,24 @@ function Galery() {
 
             <img style={{ width: "100px", margin: "0", padding: "0" }} title="FR-Trockenbau logo" src={logo} alt="Logo" />
 
-            <p className="footer-company-name">FR Trockenbau © 2017. All rights Reserved  <a style={{ color: "black" }} href="/privacy">Datenschutz</a> <a style={{ color: "black" }} href="/impresum">Impressum</a></p>
+            {/* <p className="footer-company-name"> <a style={{ color: "black" }} href="/privacy">Datenschutz</a> <a style={{ color: "black" }} href="/impresum">Impressum</a></p> */}
           </div>
 
           <div className="footer-center">
 
             <div>
               <i className="ri-map-pin-line"></i>
-              <p><span>Fromund-str.35</span> 81547 München, Germany</p>
+              <p><span></span> 36310 Sjenica, Srbija</p>
             </div>
 
             <div>
               <i className="ri-phone-line"></i>
-              <a style={{ color: "black", textDecoration: "underline" }} href="tel:+49 017664415110">+381 62 8934 765</a>
+              <a style={{ color: "black", textDecoration: "underline" }} href="tel:+49 017664415110">+381 62 8934 765 +381 63 8 343512</a>
             </div>
 
             <div>
               <i className="ri-mail-line"></i>
-              <p><a style={{ color: "black", textDecoration: "underline" }} href="mailto:info@fr-trockenbau.de">info@fr-trockenbau.de</a></p>
+              <p><a style={{ color: "black", textDecoration: "underline" }} href="mailto:info@fr-trockenbau.de">sjenicaestrih@gmail.com</a></p>
             </div>
 
           </div>
@@ -258,9 +258,9 @@ function Galery() {
           <div className="footer-right">
 
             <p className="footer-company-about">
-              <span>Über uns</span>
-              Ihr Experte für Trockenbauarbeiten in München und Umgebung. Profitieren Sie von mehr als 6 Jahren professioneller Erfahrung bei FR Trockenbau in München. Selbstverständlich unterbreiten wir Ihnen gerne ein faires Angebot. Mit einem absoluten Bewusstsein für Qualität und höchster Kompetenz führt unser Team von Faruk Rizovic Trockenbau in München und Umgebung Bestellungen auf eine hochwertige und saubere Weise aus. FR Trockenbau - Ihr zuverlässiger Partner in München.
-            </p>
+              <span>O nama</span>
+              Vaš stručnjak za izradu betonskih košuljica u Sjenici i okolini. Iskoristite više od 6 godina profesionalnog iskustva kod Estrih Sjenica. Naravno, rado ćemo vam dati fer ponudu. Sa apsolutnom posvećenošću kvalitetu i najvećom stručnosti, naš tim izvodi radove na izradi betonskih košuljica na visokom nivou i na čisto zadovoljavajući način. Estrih Sjenica - vaš pouzdan partner za stabilne temelje u Sjenici i okolini.
+              </p>
 
           </div>
 

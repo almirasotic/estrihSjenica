@@ -22,8 +22,8 @@ function Navbar() {
                 <a href="/"><img style={{width: "100px"}} title="FR-Trockenbau logo" src={logo} alt="Logo" /></a>
                 <nav ref={navRef}>
                     <Link to="/" >Home</Link>
-                    <Link to="/galery">Galerie</Link>
-                    <Link to="/contact"  >Kontakt</Link>
+                    <Link to="/galery">Galerija</Link>
+                    {/* <Link to="/contact"  >Kontakt</Link> */}
                     {/* <Link to="/impresum"  >Impressum</Link> */}
                     <button
                         className="nav-btn nav-close-btn"

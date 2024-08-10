@@ -31,11 +31,11 @@ function Home() {
         {/* Kontaktna traka */}
         <div className='contact-bar w-100 gap-3 d-flex flex-row'>
           <i className="ri-phone-fill"></i>
-          <p className='p-1 m-0'> +381 62 8934 765</p>
+          <p className='p-1 m-0'> +381 62 8934 765   +381 63 8 343512</p>
           <i className="ri-map-pin-line"></i>
           <p className='p-1 m-0'>Kej Mira 36310 Sjenica</p>
           <i className="ri-mail-line"></i>
-          <p className='p-1 m-0'>dzemo@gmail.com</p>
+          <p className='p-1 m-0'>sjenicaestrih@gmail.com</p>
         </div>
 
         {/* Navigaciona traka */}
@@ -51,7 +51,7 @@ function Home() {
             <br />
             <br />
             <div className='div-button d-flex w-100 p-0 m-0 justify-content-center'>
-            <Link to="/contact"><button className='btn btn-border-1'><i className="ri-arrow-right-s-line"></i>Kontakt</button></Link>
+            {/* <Link to="/contact"><button className='btn btn-border-1'><i className="ri-arrow-right-s-line"></i>Kontakt</button></Link> */}
             <a  href="#services"><button className='btn btn-border-1'><i className="ri-arrow-right-s-line"></i>Usluge</button></a>
             </div>
           </div>
@@ -62,15 +62,16 @@ function Home() {
 
           {/* O nama */}
           <div className='section-card d-flex flex-column p-0 m-0'>
-            <h1 style={{ color: "#645124" }}>Suva gradnja Minhen</h1><br /><br />
-            <b><p style={{ fontSize: "16px", margin: "auto" }}>Vaš specijalista za sve vrste suve gradnje u Minhenu i okolini</p></b><br /><br /><br />
+            <h1 style={{ color: "#645124" }}>Izrada betonskih kosuljica (Estrih) </h1><br /><br />
+            <b><p style={{ fontSize: "16px", margin: "auto" }}>Vaš specijalista za sve vrste suve gradnje u Sjenici i okolini</p></b><br /><br /><br />
 
             <p>
-              Dobrodošli na veb stranicu FR Trockenbau iz Minhena - Vaši pouzdani majstori za suvu gradnju u Minhenu i okolini.<br/>Više od 6 godina iskustva u suvoj gradnji i mnogi zadovoljni klijenti govore za nas! Naš moto: "Sve na jednom mestu" - Naše sveobuhvatne usluge uključuju unutrašnje uređenje vašeg objekta po principu "ključ u ruke" kao i pravovremenu izolaciju krova ili sprovođenje propisanih mera zaštite od požara u Minhenu.<br/> FR Trockenbau iz Minhena se zalaže za fer cene kao i za brzo, čisto i pravovremeno izvođenje svih radova.
-            </p><br />
-            <p>
-              "Ispunjenje želja naših klijenata i njihovo zadovoljstvo u Minhenu su nam na prvom mestu!<br/><br/> Uvek uključujemo vaše ideje u naše savete i planiranje suve gradnje - ali ćemo vas iskreno informisati sa stanovišta iskusnog majstora ako nešto nije izvodljivo. Nudimo vam fer i transparentnu cenovnu strukturu kao i profesionalno i pravovremeno izvođenje u Minhenu i okolini. <br/><br/>Rado ćemo vam pokazati gde možete uštedeti i gde se investicije isplate. Mi smo specijalisti za suvu gradnju i sledeće dodatne oblasti:
-            </p>
+  Dobrodošli na veb stranicu Estrih Sjenica - Vaš pouzdan partner za izradu betonskih košuljica u Sjenici i okolini.<br/> Više od 6 godina iskustva u izradi betonskih košuljica i mnogi zadovoljni klijenti svedoče o našem kvalitetu! Naš moto: "Sve na čvrstim temeljima" - Naše sveobuhvatne usluge obuhvataju postavljanje betonskih košuljica koje su osnova za svaki stabilan i dugotrajan pod, kao i dodatne radove koji osiguravaju dugovečnost vašeg objekta.<br/> Estrih Sjenica se zalaže za fer cene, brzu, čistu i pravovremenu realizaciju svih projekata.
+</p><br />
+<p>
+  "Zadovoljstvo naših klijenata u Sjenici je naš prioritet!<br/><br/> Uvek uvažavamo vaše ideje i uključujemo ih u planiranje izrade betonskih košuljica - ali ćemo vas iskreno posavetovati na osnovu našeg dugogodišnjeg iskustva ako nešto nije optimalno. Nudimo vam fer i transparentnu cenovnu strukturu, kao i profesionalno i pravovremeno izvođenje radova u Sjenici i okolini. <br/><br/> Rado ćemo vam pokazati gde možete uštedeti i gde se investicije isplate. Mi smo specijalisti za izradu betonskih košuljica i sledeće dodatne usluge:
+</p>
+
           </div>
 
           {/* Fiksirana pozadina */}
@@ -96,6 +97,28 @@ function Home() {
                     </div>
                   </div>
                   <div className="box">
+  <div className="inner">
+    <div className="icon">
+      <img title="Industrijski podovi" style={{ width: "60px" }} src={icon2} alt="industrial floor icon" />
+    </div>
+    <h3>Izrada industrijskih podova</h3>
+    <p>
+      Specijalizovani smo za izradu industrijskih podova visokih performansi, koji su idealni za fabrike, skladišta i druge komercijalne objekte. Naše betonske košuljice pružaju čvrstinu i otpornost neophodnu za teške industrijske uslove. Koristimo napredne tehnike i materijale kako bismo osigurali dugotrajne i izdržljive podove koji mogu podneti intenzivnu upotrebu. Kontaktirajte nas i osigurajte pouzdanu osnovu za vaš industrijski objekat.
+    </p>
+  </div>
+  <div className="box">
+  {/* <div className="inner">
+    <div className="icon">
+      <img title="Hidroizolacija podova" style={{ width: "60px" }} src={icon3} alt="waterproofing icon" />
+    </div>
+    <h3>Izolacija i hidroizolacija podova</h3>
+   
+  </div> */}
+</div>
+
+</div>
+
+                  {/* <div className="box">
                     <div className="inner">
                       <div className="icon"><img title="Tavani" style={{ width: "60px" }} src={icon2} alt="icon2" /></div>
                       <h3>Tavani</h3>
@@ -143,7 +166,7 @@ function Home() {
                       <h3>Rušenje</h3>
                       <p>Građevinska firma FR Trockenbau bavi se rušenjem.</p>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -157,8 +180,8 @@ function Home() {
             <div className='counter-global d-flex flex-column justify-content-center p-0 m-0'>
               {isVisible ? (
                 <div className='w-100 justify-content-center gap-3 d-flex flex-row p-0 m-0' >
-                  <div className='d-flex flex-column align-items-center m-2' ><div className='count-font d-flex flex-row'><CountUp className='count-font' start={0} end={10} duration={3} delay={0} />+</div><p>Godina iskustva</p></div>
-                  <div className='d-flex flex-column align-items-center m-2' ><div className='count-font d-flex flex-row'><CountUp className='count-font' start={30} end={104} duration={3} delay={0} />+</div><p>Uspešni projekti</p></div>
+                  <div className='d-flex flex-column align-items-center m-2' ><div className='count-font d-flex flex-row'><CountUp className='count-font' start={0} end={6} duration={3} delay={0} />+</div><p>Godina iskustva</p></div>
+                  <div className='d-flex flex-column align-items-center m-2' ><div className='count-font d-flex flex-row'><CountUp className='count-font' start={30} end={52} duration={3} delay={0} />+</div><p>Uspešni projekti</p></div>
                   <div className='d-flex flex-column align-items-center m-2' ><div className='count-font d-flex flex-row'><CountUp className='count-font' start={0} end={2} duration={3} delay={0} /></div><p>Administrativni radnici</p></div>
                 </div>
               ) : (
@@ -182,19 +205,20 @@ function Home() {
             </div>
             <div>
               <i className="ri-phone-line"></i>
-              <a style={{ color: "black", textDecoration: "underline" }} href="tel:+49 017664415110">+381 62 8934 765</a>
+              <a style={{ color: "black", textDecoration: "underline" }} href="tel:+49 017664415110">+381 62 8934 765  +381 63 8 343512</a>
             </div>
             <div>
               <i className="ri-mail-line"></i>
-              <p><a style={{ color: "black", textDecoration: "underline" }} href="mailto:info@fr-trockenbau.de">dzemo@gmail.com</a></p>
+              <p><a style={{ color: "black", textDecoration: "underline" }} href="mailto:info@fr-trockenbau.de">sjenicaestrih@gmail.com</a></p>
             </div>
           </div>
 
           <div className="footer-right">
-            <p className="footer-company-about">
-              <span>O nama</span>
-              Vaš stručnjak za radove suve gradnje u Minhenu i okolini. Iskoristite više od 6 godina profesionalnog iskustva kod FR Trockenbau u Minhenu. Naravno, rado ćemo vam dati fer ponudu. Sa apsolutnom svešću o kvalitetu i najvećom kompetencijom, naš tim Faruka Rizovica izvodi radove suve gradnje u Minhenu i okolini na visokom nivou i čist način. FR Trockenbau - vaš pouzdan partner u Minhenu.
-            </p>
+          <p className="footer-company-about">
+  <span>O nama</span>
+  Vaš stručnjak za izradu betonskih košuljica u Sjenici i okolini. Iskoristite više od 6 godina profesionalnog iskustva kod Estrih Sjenica. Naravno, rado ćemo vam dati fer ponudu. Sa apsolutnom posvećenošću kvalitetu i najvećom stručnosti, naš tim izvodi radove na izradi betonskih košuljica na visokom nivou i na čisto zadovoljavajući način. Estrih Sjenica - vaš pouzdan partner za stabilne temelje u Sjenici i okolini.
+</p>
+
           </div>
 
         </footer>

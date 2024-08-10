@@ -38,11 +38,11 @@ function Contact() {
       {/* Contact bar */}
       <div className="contact-bar w-100 gap-3 d-flex flex-row">
         <i className="ri-phone-fill"></i>
-        <p className="p-1 m-0"> +381 62 8934 765</p>
+        <p className="p-1 m-0"> +381 62 8934 765 +381 63 8 343512</p>
         <i className="ri-map-pin-line"></i>
         <p className="p-1 m-0">Kej Mira 36310 Sjenica</p>
         <i className="ri-mail-line"></i>
-        <p className="p-1 m-0">dzemo@gmail.com</p>
+        <p className="p-1 m-0">sjenicaestrih@gmail.com</p>
       </div>
 
       {/* Navigation bar */}
@@ -57,8 +57,8 @@ function Contact() {
         </a>
         <nav ref={navRef}>
           <Link to="/">Home</Link>
-          <Link to="/galery">Galerie</Link>
-          <Link to="/contact">Kontakt</Link>
+          <Link to="/galery">Galerija</Link>
+          {/* <Link to="/contact">Kontakt</Link> */}
           {/* <Link to="/impresum"  >Impressum</Link> */}
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>
             <FaTimes />
@@ -172,12 +172,12 @@ function Contact() {
           />
 
           <p className="footer-company-name">
-            FR Trockenbau © 2017. All rights Reserved{" "}
+           Almir Asotic{" "}
             <a style={{ color: "black" }} href="/privacy">
-              Datenschutz
+             
             </a>{" "}
             <a style={{ color: "black" }} href="/impresum">
-              Impressum
+              
             </a>
           </p>
         </div>
@@ -186,7 +186,7 @@ function Contact() {
           <div>
             <i className="ri-map-pin-line"></i>
             <p>
-              <span>Fromund-str.35</span> 81547 München, Germany
+              <span></span> 36310 Sjenica, Srbija
             </p>
           </div>
 
@@ -207,7 +207,7 @@ function Contact() {
                 style={{ color: "black", textDecoration: "underline" }}
                 href="mailto:info@fr-trockenbau.de"
               >
-                dzemo@gmail.com
+                sjenicaestrih@gmail.com
               </a>
             </p>
           </div>
